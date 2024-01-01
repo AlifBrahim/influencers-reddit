@@ -24,7 +24,7 @@ const createComment = async (req, res) => {
     cooldown.add(userId);
     setTimeout(() => {
       cooldown.delete(userId);
-    }, 30000);
+    }, 20000);
 
     const comment = await Comment.create({
       content,
