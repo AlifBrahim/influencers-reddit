@@ -33,7 +33,7 @@ if (process.env.NODE_ENV === 'production') {
 
 const io = require("socket.io")(server, {
   cors: {
-    origin: ["http://localhost:3000", "https://146.190.102.198/443", "https://post-it-heroku.herokuapp.com"],
+    origin: ["http://localhost:3003", "http://localhost:3000", "https://146.190.102.198:443", "https://post-it-heroku.herokuapp.com", "https://influencers-reddit.vercel.app"],
   },
 });
 
@@ -54,7 +54,7 @@ server.listen(PORT, () => {
 
 app.use(express.json());
 app.use(cors({
-  origin: ["http://localhost:3000", "https://146.190.102.198/443", "https://post-it-heroku.herokuapp.com"],
+  origin: ["http://localhost:3003", "http://localhost:3000", "https://146.190.102.198:443", "https://post-it-heroku.herokuapp.com", "https://influencers-reddit.vercel.app"],
 }));
 app.use("/api/posts", posts);
 app.use("/api/users", users);
