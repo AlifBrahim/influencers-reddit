@@ -21,9 +21,9 @@ const PORT = process.env.NODE_ENV === 'production' ? 443 : 4000;
 let server;
 
 if (process.env.NODE_ENV === 'production') {
-  const privateKey = fs.readFileSync('/home/alif/ssl/alifibrahim_me.key', 'utf8');
-  const certificate = fs.readFileSync('/home/alif/ssl/alifibrahim_me.crt', 'utf8');
-  const ca = fs.readFileSync('/home/alif/ssl/alifibrahim_me.ca-bundle', 'utf8');
+  const privateKey = fs.readFileSync('/app/alifibrahim_me.key', 'utf8');
+  const certificate = fs.readFileSync('/app/alifibrahim_me.crt', 'utf8');
+  const ca = fs.readFileSync('/app/alifibrahim_me.ca-bundle', 'utf8');
 
   const credentials = { key: privateKey, cert: certificate, ca: ca };
   server = https.createServer(credentials, app);
