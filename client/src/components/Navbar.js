@@ -15,7 +15,7 @@ import "react-icons/ri";
 import {
   AiFillFileText,
   AiFillHome,
-  AiFillMessage,
+  AiFillMessage, AiFillWechat,
   AiOutlineSearch,
 } from "react-icons/ai";
 import { Link, useNavigate } from "react-router-dom";
@@ -79,16 +79,16 @@ const Navbar = () => {
         spacing={!mobile ? 2 : 0}
       >
         <HorizontalStack>
-          <AiFillFileText
+          <AiFillWechat
             size={33}
-            color={theme.palette.primary.main}
+            color="#2E4374"
             onClick={() => navigate("/")}
           />
           <Typography
             sx={{ display: mobile ? "none" : "block" }}
             variant={navbarWidth ? "h6" : "h4"}
             mr={1}
-            color={theme.palette.primary.main}
+            color="#2E4374"
           >
             {/* <Link to="/" color="inherit"> */}
               UUMDahBaca

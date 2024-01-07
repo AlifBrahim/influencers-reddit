@@ -45,10 +45,8 @@ const LoginView = () => {
   return (
     <Container maxWidth={"xs"} sx={{ mt: 6 }}>
       <Stack alignItems="center">
-        <Typography variant="h2" color="text.secondary" sx={{ mb: 6 }}>
-          <Link to="/" color="inherit" underline="none">
+        <Typography variant="h2" color="#2E4374" sx={{ mb: 6 }}>
             UUMDahBaca
-          </Link>
         </Typography>
         <Typography variant="h5" gutterBottom>
           Login

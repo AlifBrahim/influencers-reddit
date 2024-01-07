@@ -74,7 +74,7 @@ const SignupView = () => {
   return (
     <Container maxWidth={"xs"} sx={{ mt: { xs: 2, md: 6 } }}>
       <Stack alignItems="center">
-        <Typography variant="h2" color="text.secondary" sx={{ mb: 6 }}>
+        <Typography variant="h2" color="#2E4374" sx={{ mb: 6 }}>
           <Link to="/" color="inherit" underline="none">
             UUMDahBaca
           </Link>
