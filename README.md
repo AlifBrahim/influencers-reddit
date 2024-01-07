@@ -2,6 +2,7 @@
 PostIt is a fully-featured social media web application, built with the MERN stack.  
 
 Deployed at: https://influencers-reddit.vercel.app/
+
 ![Walkthru](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/be06c806-1935-4a8a-802d-999e0dd20d46)
 
 ## Features
