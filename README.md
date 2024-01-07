@@ -56,7 +56,7 @@ npm start
 
 ## Screenshots of Features
 ### Explore view
-![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/235b2bbd-21d6-4674-9cee-0e099f822847)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/a204e816-3ac9-4b6c-afc8-36a116775d15)
 
 ### Post view
 ![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/4c4822d9-7429-4dd6-9000-28be6ee52f0e)
