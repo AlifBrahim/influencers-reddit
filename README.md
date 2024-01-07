@@ -2,7 +2,7 @@
 PostIt is a fully-featured social media web application, built with the MERN stack.  
 
 Deployed at: https://influencers-reddit.vercel.app/
-![GIF of PostIt walkthrough](https://media.giphy.com/media/9tnaXy42T4NzSJdHhP/giphy.gif)
+![Walkthru](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/be06c806-1935-4a8a-802d-999e0dd20d46)
 
 ## Features
 - Create, read, update and delete posts
@@ -49,27 +49,28 @@ npm run server
 ```
 6) Start a new terminal and run react's development server
 ```
-cd social-media-app
+cd influencers-reddit
 cd client
 npm start
 ```
 
-## Screenshots
+## Screenshots of Features
 ### Explore view
-![image](https://user-images.githubusercontent.com/76620777/170822044-44c5f2e6-879f-4b16-8059-f9e331ba57de.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/235b2bbd-21d6-4674-9cee-0e099f822847)
 
 ### Post view
-![image](https://user-images.githubusercontent.com/76620777/170822055-ac686a28-7d5b-4d44-b8d3-a028521534d8.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/4c4822d9-7429-4dd6-9000-28be6ee52f0e)
 
 ### Nested comments
-![image](https://user-images.githubusercontent.com/76620777/170822065-64622f43-5f70-48c2-9503-0e1b80575fd2.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/423c9af5-4e4f-49d9-8742-c37824b16acb)
 
 ### Profile view
-![image](https://user-images.githubusercontent.com/76620777/170822076-18741eef-ba2b-4750-b468-e7e9561a6a71.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/6225aa17-d270-49c7-92bf-f4b0a3d187cc)
 
 ### Real-time private messenger
-![image](https://user-images.githubusercontent.com/76620777/170822084-89a9d3ac-22ed-4a92-ab58-9b0af878e03e.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/4d0688a7-b4ca-4a1f-a89b-2aea0dd9ee9b)
 
 ### Search view
-![image](https://user-images.githubusercontent.com/76620777/170821986-49d2a93a-5486-47fc-885e-37c0d3f628f3.png)
+![image](https://github.com/AlifBrahim/influencers-reddit/assets/92504870/83d3e6fb-0380-4bcd-bf3f-f223c0641f9c)
+
 
